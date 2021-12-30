@@ -1,5 +1,6 @@
 import React from 'react'
 import './App.css';
+import Home from './Screen/Home';
 import { FaSearch, FaShoppingCart, FaUserCircle } from 'react-icons/fa';
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
@@ -71,40 +72,44 @@ function App() {
         slidesToSlide={1}
         swipeable
         >
-        <img src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonServices/Site/US/Product/FBA/Outlet/Merchandising/Outlet_GW_WC_186x116_Evergreen_Oct_2021._SY116_CB640520999_.jpg"
+        <img 
+          src="images/slider1.jpg"
           style={{
             display: "block",
-            height: "30rem",
+            height: "35rem",
             margin: "auto",
             width:"100%",
             objectFit:"fill",  
           }}
           alt=""
           />
-        <img src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonServices/Site/US/Product/FBA/Outlet/Merchandising/Outlet_GW_WC_186x116_Evergreen_Oct_2021._SY116_CB640520999_.jpg"
+        <img
+          src="images/slider2.jpg"
           style={{
             display: "block",
-            height: "30rem",
+            height: "35rem",
             margin: "auto",
             width: "100%",
             objectFit: "fill",
           }}
           alt=""
         />
-        <img src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonServices/Site/US/Product/FBA/Outlet/Merchandising/Outlet_GW_WC_186x116_Evergreen_Oct_2021._SY116_CB640520999_.jpg"
+        <img 
+          src="images/slider3.jpg"
           style={{
             display: "block",
-            height: "30rem",
+            height: "35rem",
             margin: "auto",
             width: "100%",
             objectFit: "fill",
           }}
           alt=""
         />
-        <img src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonServices/Site/US/Product/FBA/Outlet/Merchandising/Outlet_GW_WC_186x116_Evergreen_Oct_2021._SY116_CB640520999_.jpg"
+        <img 
+          src="images/slider4.jpg"
           style={{
             display: "block",
-            height: "30rem",
+            height: "35rem",
             margin: "auto",
             width: "100%",
             objectFit: "fill",
@@ -120,6 +125,6 @@ function App() {
   );
 }
 
-export default App
+export default App;
 
 
